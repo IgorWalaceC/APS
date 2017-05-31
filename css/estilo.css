@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.cor-menu{
+	box-shadow: 0px 4px 15px 1px  black;
+	width: 100%;
+	background: #d9ffcc;
+}
+.tema{
+	text-align: center;
+	margin-top: 10px;
+}
+.logo{
+	font-family: 'Sue Ellen Francisco', cursive;
+	color:  #86b300;
+	font-size:4em;
+}
+.bg-faded{
+	background-color:  #d9ffcc;
+} 
+.link {
+	padding-right: 2.7rem !important;
+	padding-left: 4.5rem !important;
+	font-size: 1.5em !important;
+}
+.link:hover {
+	color: rgba(50,205,50,1) !important;
+}
+.navbar-brand{
+	font-family: 'Sue Ellen Francisco', cursive;
+	color:  #86b300;
+	font-size: 2.5em;
+}
+.inicio{
+	color: #86b300 !important;
+}
+.navbar-toggler-right {
+	position: absolute;
+	right: 1rem;
+	top: 1.3rem;
+}
+/*CONTEUDO*/
+
+.titulo{
+	color:#86b300;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 1em;
+}
+.subtitulos{	
+	padding-top: .5em;
+	padding-bottom: .5em;
+	font-size: 2.5em;
+	text-align: center;
+	color: #663300;
+}
+.center-icon{
+	padding: 1.2em;
+	text-align: center;
+	color: #86b300;
+}
+.center-icon:hover{
+	color: green;
+	transition-duration: 1s;
+}
+h3{
+	color: #663300;
+	text-align: center;
+}
+hr {	
+	color: #d9ffcc;
+	background-color: #d9ffcc;
+	height: 2px;
+	width: 33.333%;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	left: 33%;
+}
+p{
+	text-align: justify;
+}
+.hr-temas{	
+	color: #663300;
+	background: #663300;
+}
+.background{
+	text-align: justify;
+	min-height: 40vh;;
+}
+.content{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.temas{			
+	background: #e6ccb3;
+	min-height: 50vh;		
+}
+.topicos{
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+/*medias Q*/
+@media (max-width: 1920px) and (min-width:1280px){
+	.titulo{
+		font-size: 3.2em;
+	}
+	.conteudo{
+		font-size: 1.3em;
+	}
+	.topicos{
+		font-size: 1.1em;
+	}
+}
+@media (max-width: 1280px) and (min-width:768px){
+	.link{
+		font-size: 1.2em !important;
+	}
+	.titulo{
+		font-size: 3.3em;
+	}
+	.conteudo{
+		font-size: 1.2em;
+	}
+	.topicos{
+		font-size: 1.1em;
+	}
+}
+@media (max-width: 580px) and (min-width:360px){
+	.cor-menu{
+		box-shadow: 0px 0px 0px 0px  black;		
+	}
+	.titulo{
+		font-size: 2.5em;
+	}
+	.conteudo{
+		padding: 1em;
+		font-size: 1.1em;
+	}
+	.topicos{
+		padding: 1em;
+		font-size: 1.1em;
+	}
+}
+@media (max-width: 360px) and (min-width:320px){
+	.cor-menu{
+		box-shadow: 0px 0px 0px 0px  black;		
+	}
+	.link{
+		font-size: 1.2em !important;
+	}
+	.titulo{
+		font-size: 2.4em;
+	}
+	.conteudo{
+		padding: 1.2em;
+		font-size: 1.1em;
+	}
+	.topicos{
+		padding: 1em;
+		font-size: 1.1em;
+	}
+}
